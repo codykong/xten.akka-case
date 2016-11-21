@@ -4,7 +4,7 @@ import akka.actor.{ActorRef, ActorSystem, Props}
 
 /**
   * Created with IntelliJ IDEA. 
-  * User: kongqingyu
+  * User: cody
   * Date: 2016/10/31 
   * Time: 下午8:57 
   * To change this template use File | Settings | File Templates. 
