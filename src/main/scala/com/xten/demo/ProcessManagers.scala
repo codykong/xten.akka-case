@@ -12,6 +12,6 @@ import akka.actor.Actor.Receive
   */
 class ProcessManagers extends Actor{
   override def receive: Receive = {
-    println("ProcessManagers");
+    case _ => println("ProcessManagers");
   }
 }

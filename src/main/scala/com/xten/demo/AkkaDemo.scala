@@ -2,6 +2,7 @@ package com.xten.demo
 
 import akka.actor.{ActorRef, ActorSystem, Props}
 
+
 /**
   * Created with IntelliJ IDEA. 
   * User: cody
@@ -15,6 +16,7 @@ object AkkaDemo {
     var system = ActorSystem.create("master");
     val processManagersRef :ActorRef =
       system.actorOf(Props[ProcessManagers],"processManagers")
+    println("success")
 //    processManagersRef ! BrokerForLoan(banks)
   }
 
